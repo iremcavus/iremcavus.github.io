@@ -16,6 +16,18 @@ div.inf-canvas {
     z-index: 999;
 }
 
+.menu {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 47px;
+    right: 47px;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
 .main-title {
     position: absolute;
     margin: 0;
@@ -60,13 +72,23 @@ div.inf-canvas {
     margin-top: -74px;
 }
 
+svg {
+    width: 32px;
+    height: 32px;
+    transition: fill .5s ease;
+}
+
+svg:hover {
+    fill: #d35400;
+}
+
 ul li {
     list-style: none;
     display: inline-block;
 }
 
 li {
-    margin: 0px 4px;
+    margin: 0px 0.4px;
 }
 
 img {
