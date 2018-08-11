@@ -58,7 +58,7 @@ div.inf-canvas {
 
 ul li {
     list-style: none;
-    float: left;
+    display: inline-block;
 }
 
 li {
@@ -161,6 +161,6 @@ img {
 
 @media only screen and (max-width: 600px) {
 
-
+    
 
 }
