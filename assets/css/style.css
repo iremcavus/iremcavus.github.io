@@ -167,4 +167,9 @@ img {
     .main-title {
         width: 100% !important;
     }
+
+    .child-title {
+        width: 100% !important;
+        top: 55% !important;
+    }
 }
