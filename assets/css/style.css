@@ -24,8 +24,22 @@ div.inf-canvas {
     text-align: center;
     top: 47px;
     right: 47px;
-    -webkit-transform: translate3d(-50%,-50%,0);
-    transform: translate3d(-50%,-50%,0);
+}
+
+.links { 
+    float: left;
+    margin-top: -9px;
+    margin-right: 24px;
+    display: none;
+}
+
+.links > ul li {
+    display: inline-block;
+}
+
+.menu-link {
+    color: #d35400;
+    text-decoration: none;
 }
 
 .main-title {
